@@ -531,7 +531,7 @@ void CheckersGame::setClicked(int i, int j) {
 }
 
 void CheckersGame::firstClick(int i, int j) {
-	if( (humancolor == current->color(i,j))) {
+    if(humancolor == current->color(i,j)) {
 		tmppoint.x = i; tmppoint.y = j; tmppoint.type = MOVEDFROM;
 		tmpvector.clear();
 		for(unsigned ii=0; ii< current->childs().size(); ii++ ) {

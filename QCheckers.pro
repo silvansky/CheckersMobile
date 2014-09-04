@@ -2,6 +2,7 @@
 # Project created by QtCreator 2009-06-12T15:14:58
 # -------------------------------------------------
 TARGET = QCheckers
+QT += widgets
 TEMPLATE = app
 SOURCES += main.cpp \
     mainwindow.cpp \
